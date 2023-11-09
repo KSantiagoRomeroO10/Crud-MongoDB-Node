@@ -1,0 +1,59 @@
+h1{
+  color: white;
+  text-align: center;
+}
+
+.create{
+  margin: 30px;
+  background-color: green;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.create:hover{
+  background-color: #005700;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  color: white;
+  background: #000000d7;
+  margin: auto;
+  text-align: center;
+}
+
+th{
+  background: grey;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+td:hover {
+  background-color: #8a17174b;
+  color: #fff;
+  box-shadow: 0 0 10px #000;
+}
+
+.button button{
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+.editar button{
+  background: #b8b800;
+}
+
+.eliminar button{
+  background: #b80000;
+}
